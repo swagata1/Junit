@@ -33,6 +33,7 @@ public class Apptest1 extends ActivityInstrumentationTestCase2<LoginActivity> {
         //   String expectedInfoText = mClickFunActivity.getString(R.string.info_text);
         //Perform a click on mClickMeButton
         TouchUtils.clickView(this, mClickMeButton);
+        assertNotNull(null,mClickMeButton);
         //Verify the that mClickMeButton was clicked. mInfoTextView is visible and contains
         //the correct text.
         //  assertTrue(View.VISIBLE == mInfoTextView.getVisibility());
